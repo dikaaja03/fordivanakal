@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Celebration</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Happy Valentine's Day ❤</h1>
+  </header>
+
+  <!-- Konten Utama -->
+  <section class="card">
+    <h2>Untukmu yang Spesial</h2>
+    <p>"Cinta itu sederhana, namun mampu mengubah segalanya."</p>
+    <button onclick="showLove()">Klik untuk Kejutan!</button>
+    <p id="loveMessage" class="hidden">💖 You are loved! 💖</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Valentine's Day Celebration</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showLove() {
+      document.getElementById("loveMessage").classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>
